@@ -193,8 +193,9 @@ $(".card .list-group").sortable({
     console.log("out", event.target);
   },
   update: function(event) {
-    console.log("update", this);
+    console.log($(this).children());
   }
+  
 });
 
 
