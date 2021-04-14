@@ -193,7 +193,10 @@ $(".card .list-group").sortable({
     console.log("out", event.target);
   },
   update: function(event) {
-    console.log($(this).children());
+    // loop over current set of children in sortable list
+    $(this).children().each(function() {
+      console.log($(this));
+    });
   }
   
 });
