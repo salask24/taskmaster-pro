@@ -243,5 +243,8 @@ $("#remove-tasks").on("click", function() {
   saveTasks();
 });
 
+$("#modalDueDate").datepicker();
+
+
 // load tasks for the first time
 loadTasks();
