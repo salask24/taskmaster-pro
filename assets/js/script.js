@@ -255,3 +255,9 @@ $("#modalDueDate").datepicker({
 
 // load tasks for the first time
 loadTasks();
+
+
+var auditTask = function(taskEl) {
+  // to ensure element is getting to the function
+  console.log(taskEl);
+};
