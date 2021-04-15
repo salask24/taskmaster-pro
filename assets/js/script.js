@@ -192,7 +192,7 @@ $(".list-group").on("blur", "textarea", function() {
 });
 
 // due date was clicked
-$(".list-group").on("click", "span", function() {
+$(".list-group").on("change", "input[type='text']", function() {
   // get current text
   var date = $(this).text().trim();
 
